@@ -6,22 +6,16 @@ The repository describes the python code for implementing Shapley value using th
 
 Let us first understand the data first !!
 
-Description of the German credit dataset.
+## Description of the German credit dataset:
 
-Title: German Credit data
+Attribute description for german :
 
-   Number of Attributes german: 20 (7 numerical, 13 categorical)
-   Number of Attributes german.numer: 24 (24 numerical)
+Attribute 1:  (qualitative)Status of existing checking account
 
-  Attribute description for german :
-
-Attribute 1:  (qualitative)
-	       Status of existing checking account
-               A11 :      ... <    0 DM
-	       A12 : 0 <= ... <  200 DM
-	       A13 :      ... >= 200 DM /
-		     salary assignments for at least 1 year
-               A14 : no checking account
+              - A11 :      ... <    0 DM
+	      - A12 : 0 <= ... <  200 DM
+	      - A13 :      ... >= 200 DM /salary assignments for at least 1 year
+              - A14 : no checking account
 
 Attribute 2:  (numerical)
 	      Duration in month
@@ -136,4 +130,4 @@ Attribute 20: (qualitative)
 	      A201 : yes
 	      A202 : no
 
-Dataset is downladed from [Here](https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data))
+Dataset can be downladed from [Here](https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data))
